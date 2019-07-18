@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<body>
+    <div th:fragment="showSummonerInfo(summonerIconUrl)">
+        <div class="col-lg-6">
+            <img src="@{${summonerIconUrl}}"/>
+        </div>
+    </div>
+</body>
+</html>

@@ -26,7 +26,7 @@ public class SummonerService {
             case "DalSharumm":
                 return "GayShalom";
             case "Vason":
-                return "Definitelly not gay";
+                return "Definitely not gay";
             case "Vamerius":
                 return "Gayren";
              default:

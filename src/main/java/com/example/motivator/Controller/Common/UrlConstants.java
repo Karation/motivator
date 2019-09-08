@@ -8,7 +8,10 @@ public interface UrlConstants {
     String _V4 = "/v4";
     String _SUMMONERS = "/summoners";
     String _BY_NAME = "/by-name";
+    String _BY_SUMMONER = "/by-summoner";
     String _SUMMONER_INFO = "/summonerInfo";
+    String _LEAGUE = "/league";
+    String _ENTRIES = "/entries";
 
     String _GET_SUMMONER = "/getsummoner";
     String SUMMONERNAME = "summonerName";

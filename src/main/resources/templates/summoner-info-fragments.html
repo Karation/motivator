@@ -6,5 +6,11 @@
             <img src="@{${summonerIconUrl}}"/>
         </div>
     </div>
+
+    <div th:fragment="showSummonerLeague(summonerLeague)">
+        <div th:text="${summonerLeague.getRank()}">Bronze</div>
+        <div th:text="${summonerLeague.getTier()}">4</div>
+    </div>
+
 </body>
 </html>
